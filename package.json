@@ -9,10 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "15.2.0",
+    "framer-motion": "^12.4.7",
+    "lucide-react": "^0.476.0",
+    "my-birthday-app": "file:",
+    "next": "^15.2.0",
     "react": "^19.0.0",
     "react-confetti": "^6.2.3",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-h5-audio-player": "^3.10.0-rc.1",
+    "react-tsparticles": "^2.12.2",
+    "tsparticles": "^3.8.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
