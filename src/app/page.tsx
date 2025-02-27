@@ -87,7 +87,7 @@ export default function Home() {
       )}
       <div className="z-10 text-center p-4 bg-white bg-opacity-75 rounded-lg shadow-xl">
         <h1 className="text-5xl font-extrabold text-pink-700 mb-4">
-          Happy Birthday, [Her Name]!
+          Happy Birthday, Miana!
         </h1>
         <p className="text-xl text-gray-800 mb-8">
           I hope your day is filled with joy, surprises, and lots of love.
