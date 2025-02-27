@@ -1,9 +1,9 @@
-'use client'
+'use client';
 
 import { useState, useEffect } from 'react';
 import dynamic from 'next/dynamic';
 
-// Dynamically import react-confetti (install with: npm install react-confetti)
+// Dynamically import react-confetti (ensure you have installed it: npm install react-confetti)
 const ReactConfetti = dynamic(() => import('react-confetti'), { ssr: false });
 
 function HeartGame() {
@@ -11,7 +11,7 @@ function HeartGame() {
   const [heartPosition, setHeartPosition] = useState({ top: 50, left: 50 });
   const [gameOver, setGameOver] = useState(false);
 
-  // Moves the heart to a random position (using percent values)
+  // Moves the heart to a random position (using percentage values)
   const moveHeart = () => {
     const newTop = Math.random() * 80; // 0% to 80%
     const newLeft = Math.random() * 80;
@@ -53,7 +53,7 @@ function HeartGame() {
       </div>
       {gameOver && (
         <p className="mt-4 text-center text-gray-700">
-          Here's a secret message: You're the love of my life, and I'm so excited for all our adventures together!
+          Here&apos;s a secret message: You&apos;re the love of my life, and I&apos;m so excited for all our adventures together!
         </p>
       )}
     </div>
@@ -87,7 +87,7 @@ export default function Home() {
       )}
       <div className="z-10 text-center p-4 bg-white bg-opacity-75 rounded-lg shadow-xl">
         <h1 className="text-5xl font-extrabold text-pink-700 mb-4">
-          Happy Birthday, Miana!
+          Happy Birthday, [Her Name]!
         </h1>
         <p className="text-xl text-gray-800 mb-8">
           I hope your day is filled with joy, surprises, and lots of love.
