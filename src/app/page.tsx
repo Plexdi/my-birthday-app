@@ -72,6 +72,7 @@ function CatchTheHeartGame() {
    2) Main Birthday Page
    ------------------------------------------------------------------ */
 const loveNotes = [
+  "Click the heart",
   "The way you laugh makes my day brighter",
   "I enjoy our sleep calls",
   "I enjoy playing valo with you",
