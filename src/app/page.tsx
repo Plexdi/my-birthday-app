@@ -73,10 +73,11 @@ function CatchTheHeartGame() {
    ------------------------------------------------------------------ */
 const loveNotes = [
   "The way you laugh makes my day brighter",
-  "I love how you [specific thing you appreciate]",
-  "Our first date memory here...",
-  "I can't wait to [future plan] with you",
-  "You make me feel [specific feeling]",
+  "I enjoy our sleep calls",
+  "I enjoy playing valo with you",
+  "I enjoy talking to you ",
+  "You make me feel loved and special",
+  "Click on the button below to see a surprise"
 ];
 
 export default function Home() {
